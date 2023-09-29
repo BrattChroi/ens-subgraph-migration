@@ -1,0 +1,4 @@
+npm install -g @subsquid/cli
+sqd auth -k sqd_46de2ec6f67ea1498036
+sqd init brattchroi --template evm
+sqd deploy --org brattchroi ./brattchroi
